@@ -17,7 +17,7 @@
 .info__url {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .info { 
   text-align: center;
@@ -43,14 +43,14 @@
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button{
   background: none;
@@ -145,14 +145,14 @@ button{
 /* Edit Task */
 .incomplete-tasks .input,
 .complete-tasks .input {
-  display:none
+  display: none
 }
 
 .edit-mode .input{
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label-task  {
-  display:none;
+  display: none;
 }
