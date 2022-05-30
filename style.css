@@ -30,12 +30,12 @@
 .label-task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .input{
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .add-items__functional {
     display: flex;
@@ -123,7 +123,7 @@ button{
 }
 .incomplete-tasks__input,
 .complete-tasks__input{
-    width: 226px
+    width: 226px;
 }
 .delete-image{
     height: 2em;
@@ -137,7 +137,7 @@ button{
 /* Completed */
 /* !!!! */
 .complete-tasks__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
