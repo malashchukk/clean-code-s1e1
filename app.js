@@ -126,6 +126,15 @@ var taskCompleted=function(){
 
     //Append the task list item to the #completed-tasks
     var listItem=this.parentNode;
+    for (let child of listItem.children){
+        // console.log(child);        
+        for (let style of child.classList){
+            editStyle = style.replace("incomplete", "complete");
+            child.classList.replace(style, editStyle);
+            console.log(child.classList);
+        }
+
+    }
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
 
@@ -138,6 +147,15 @@ var taskIncomplete=function(){
     //When the checkbox is unchecked
     //Append the task list item to the #incompleteTasks.
     var listItem=this.parentNode;
+    for (let child of listItem.children){
+        // console.log(child);        
+        for (let style of child.classList){
+            editStyle = style.replace("complete", "incomplete");
+            child.classList.replace(style, editStyle);
+            console.log(child.classList);
+        }
+
+    }
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
 }
