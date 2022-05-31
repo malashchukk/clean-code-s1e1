@@ -1,9 +1,10 @@
 /* Basic Style */
-
 * {
   background-color: #f8f8f8;
-  color: #333;
   font-family: Lato, sans-serif;
+}
+.wrapper {
+  color: #333;
 }
 .info {
   width: 500px;
@@ -39,17 +40,19 @@
   display: inline-block;
   flex-grow: 1;
 }
-.add-items__functional {
+.add-items__func {
   display: flex;
 }
 ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
 button{
@@ -57,18 +60,18 @@ button{
   border: 0px;
 
 }
-.text-button {
+.txt-btn {
   color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.text-button:hover {
+.txt-btn:hover {
   color: #3a3A3a;
 }
 /* Heading */
-.header3 {
+.h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -94,7 +97,7 @@ button{
 }
 
 /* New Task */
-.add-items__header3 {
+.add-items__h3 {
   display: block;
   margin: 0 0 20px;
 }
@@ -127,12 +130,12 @@ button{
 .complete-tasks__input{
   width: 226px;
 }
-.delete-image{
+.del-img{
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-image:hover {
+.del-img:hover {
   transform: rotateZ(0);
 }
 
