@@ -40,7 +40,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.add-items__func {
+.add-items {
   display: flex;
 }
 ul {
@@ -97,7 +97,7 @@ button{
 }
 
 /* New Task */
-.add-items__h3 {
+.add-task__h3 {
   display: block;
   margin: 0 0 20px;
 }
