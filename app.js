@@ -35,7 +35,7 @@ var createNewTaskElement=function(taskString){
     listItem.className="incomplete-tasks__element";
 
     label.innerText=taskString;
-    label.className="task label-task incomplete-tasks__label-task";
+    label.className="task label-task incomplete-tasks__label";
 
     //Each elements, needs appending
     checkBox.type="checkbox";

@@ -68,7 +68,7 @@ button{
   cursor: pointer;
 }
 .txt-btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
 .h3 {
@@ -86,8 +86,8 @@ button{
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -131,6 +131,7 @@ button{
   width: 226px;
 }
 .del-img{
+  cursor: pointer;
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -140,7 +141,7 @@ button{
 }
 
 /* Completed */
-.complete-tasks__label-task {
+.complete-tasks__label {
   text-decoration: line-through;
   color: #888;
 }
