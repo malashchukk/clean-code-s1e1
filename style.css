@@ -131,6 +131,7 @@ button{
   width: 226px;
 }
 .del-img{
+  cursor: pointer;
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
